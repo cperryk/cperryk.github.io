@@ -46,12 +46,14 @@ layout: default
     <div class="row">
       {% endif %}
       <div class="col-md-4 clip">
-        <a href="{{clip.url}}" target="_blank">
-          <img src="{{id | prepend: site.baseurl | prepend: '/img/' | append: '.jpg' }}"/>
-        </a>
-        <h3><a href="{{clip.url}}" target="_blank">{{i}} {{clip.head}}</a></h3>
-        <p>{{clip.desc}}</p>
-      </div>
+        <div class="inner">
+          <a href="{{clip.url}}" target="_blank">
+            <img src="{{id | prepend: site.baseurl | prepend: '/img/' | append: '.jpg' }}"/>
+          </a>
+          <h3><a href="{{clip.url}}" target="_blank">{{i}} {{clip.head}}</a></h3>
+          <p>{{clip.desc}}</p>
+        </div>
+      </div><!-- end .inner -->
     {% if remainder == 0 or forloop.last %}
     </div><!-- end .row -->
     {% endif %}
