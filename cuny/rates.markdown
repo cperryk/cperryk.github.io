@@ -13,7 +13,7 @@ If the number of homicides in a city is 5 and the city's poulation is 100, then 
 
 But because a fraction of a homicide can be hard for some people to grasp, rates are often expressed not as "number of A per one of B" but "number of A per 1,000 B." For example, "Homicides per 1,000 people." To get this, it's as simple as multiplying the original rate by 1,000. So this homicide rate can also be expressed as "50 per 1,000 people."
 
-A percent is just "number of A per 100 B" instead of "per 1 B" or "per 1,000 B." So you can say the homicide rate is 5%. It's the same as saying the homicide rate is "0.05" or "50 per 1,000."
+A **percent** is just "number of A per 100 B" instead of "per 1 B" or "per 1,000 B." So you can say the homicide rate is 5%. It's the same as saying the homicide rate is "0.05" or "50 per 1,000."
 
 To summarize, all of these sentences mean the same thing:
 
@@ -35,14 +35,14 @@ So first you need the change:
 
 Then you need the change per A:
 
-`Rate of Change = Change / A`
+`RateOfChange = Change / A`
 
 To be more concise, both of these steps can be combined like so:
 
-`Rate of Change  = (B - A) / A`
+`RateOfChange  = (B - A) / A`
 
 This is a rate, like any other! Which means your PERCENT change is just the result of this times 100.
 
-`Percent Change = ((B - A) / A) * 100`
+`PercentChange = ((B - A) / A) * 100`
 
 What's weird about rate of change is that unlike other rates, it can be negative, because the CHANGE could be negative.
