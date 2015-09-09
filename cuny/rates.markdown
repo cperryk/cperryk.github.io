@@ -46,3 +46,13 @@ This is a rate, like any other! Which means your PERCENT change is just the resu
 `PercentChange = ((B - A) / A) * 100`
 
 What's weird about rate of change is that unlike other rates, it can be negative, because the CHANGE could be negative.
+
+### Example ###
+
+Let's say that the homicide count for one year was 100. For the next year, it was 150.
+
+Change = 150 - 100 = **50**.
+
+RateOfChange = 50 / 100 = **0.5**.
+
+So the rate of change was 0.5, or 50%. In other words, for every homicide of the first year, there was 0.5 additional homicides the second year.
