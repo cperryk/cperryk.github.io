@@ -1,0 +1,150 @@
+a:link, a:visited, a:hover {
+  color: rgb(32, 101, 214);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  max-width: 1012px;
+  margin: 0 auto;
+  font-family: verdana;
+  line-height: 1.4;
+  font-family: 'Raleway', sans-serif;
+}
+
+.summary {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.top {
+  display: flex;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+  font-family: 'Oswald', sans-serif;  
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+}
+
+h1 .primary {
+  font-size: 120px;
+  line-height: 1;
+}
+
+h1 .secondary {
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.contact-info {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+  text-align: right;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: top;
+}
+
+.contact-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
+
+.contact-info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.zone1 {
+  height: 820px;
+  columns: 3;
+}
+
+h2, h3, h4, p {
+  margin: 0;
+}
+
+h2 {
+  color:#d62020;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 4px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.time {
+  font-size: 9px;
+}
+
+ul {
+  padding-left: 1em;
+  margin: 0;
+}
+
+.job {
+  margin-bottom: 13px;
+}
+
+.cols {
+  -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+  -moz-columns: 100px 3; /* Firefox */
+  columns: 100px 3;
+}
+
+.experience {
+  border-top: 1px solid gray;  
+}
+
+.bottom {
+  display: flex;
+}
+
+.bottom section {
+  width: 33.33%;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 0 20px 0 0;
+  margin-right: 20px;
+}
+
+.bottom section:last-child {
+  margin-right: 0;
+}
+
+h2 {
+  position: relative;
+  top: -12px;
+}
+
+h2 span {
+  background-color: white;
+  padding-right: 5px;
+}
+
+.skills {
+  columns: 3;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
