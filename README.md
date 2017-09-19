@@ -1,1 +1,1 @@
-`sass --watch resume.scss:resume.css`
+`sass --watch styles.scss:styles.css`
