@@ -6,10 +6,15 @@ $mobile-breakpoint: 500px;
 .summary {
   margin-bottom: 1.5em;
   font-size: 1em;
+
+  p {
+    margin: 1em 0;
+  }
 }
 
 .top {
   display: flex;
+  margin: 10px 0;
 }
 
 .contact-info {

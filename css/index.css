@@ -79,9 +79,13 @@ h4 {
   margin-bottom: 1.5em;
   font-size: 1em;
 }
+.summary p {
+  margin: 1em 0;
+}
 
 .top {
   display: flex;
+  margin: 10px 0;
 }
 
 .contact-info {
