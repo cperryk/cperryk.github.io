@@ -73,7 +73,7 @@ $mobile-breakpoint: 500px;
 
 .main {
   @media screen {
-    display: flex; 
+    display: flex;
   }
 }
 
@@ -85,12 +85,10 @@ $mobile-breakpoint: 500px;
 }
 
 .zone1 {
-
   @media print {
     columns: 3;
   }
 }
-
 
 .time {
   font-size: 9px;
@@ -156,7 +154,8 @@ section:not(.summary) {
   padding: 0;
 }
 
-.education li, .recognition li {
+.education li,
+.recognition li {
   display: flex;
   align-items: center;
   margin: 0.5em 0;
@@ -170,12 +169,12 @@ section:not(.summary) {
   }
 
   &:before {
-   content: '';
-   height: 1.5em;
-   width: 1.5em;
-   background-size: cover;
-   flex-shrink: 0;
-   margin-right: 0.4em;
+    content: '';
+    height: 1.5em;
+    width: 1.5em;
+    background-size: cover;
+    flex-shrink: 0;
+    margin-right: 0.4em;
   }
 }
 
