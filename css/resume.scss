@@ -1,7 +1,60 @@
 @import 'base.scss';
 
 $gutter: 35px;
-$mobile-breakpoint: 500px;
+$mobile-breakpoint: 1000px;
+
+h1 {
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.1;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: $mobile-breakpoint) {
+    margin: 10px 0;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  @media print {
+    flex-direction: row;
+  }
+
+  .primary {
+    font-size: 3.0em;
+    line-height: 1;
+  }
+
+  .secondary {
+    margin-top: 8px;
+    font-size: 1.3em;
+
+    @media screen and (min-width: $mobile-breakpoint) {
+      margin-left: 25px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media print {
+      margin-left: 20px;
+      margin-top: 4px;
+      font-size: 1.3em;
+    }
+
+    .word {
+      display: inline;
+
+      @media screen and (min-width: $mobile-breakpoint) {
+         display: block;
+      }
+
+      @media print {
+        display: block;
+      }
+    }
+  }
+}
 
 .summary {
   margin-bottom: 1.5em;

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+
 a:link,
 a:visited,
 a:hover {
@@ -20,9 +24,8 @@ a:hover {
 body {
   max-width: 900px;
   margin: 0 auto;
-  font-family: verdana;
   line-height: 1.4;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', verdana, sans serif;
   font-size: 16px;
   color: #111;
 
