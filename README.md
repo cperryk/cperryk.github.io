@@ -1,1 +1,1 @@
-Run `./watch` to build CSS
+Run `./watch.sh` to build CSS
