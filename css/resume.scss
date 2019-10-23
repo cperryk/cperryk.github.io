@@ -3,6 +3,16 @@
 $gutter: 35px;
 $mobile-breakpoint: 1000px;
 
+.nav {
+  margin: 10px 0;
+  position: relative;
+  text-align: center;
+
+  @media print {
+    display: none;
+  }
+}
+
 h1 {
   text-transform: uppercase;
   margin: 0 0 10px 0;
