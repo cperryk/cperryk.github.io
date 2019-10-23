@@ -57,7 +57,7 @@ h1 {
 }
 
 .summary {
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
   font-size: 1em;
 }
 
@@ -173,7 +173,7 @@ section:not(.summary) {
 
   @media print {
     margin-left: 0;
-    margin-top: 25px;
+    margin-top: 1em;
     flex-direction: row;
   }
 }
@@ -211,7 +211,27 @@ section:not(.summary) {
 .recognition li {
   display: flex;
   align-items: center;
-  margin: 0.5em 0;
+  margin: 0.25em 0;
+
+  object {
+    margin-right: 5px;
+  }
+
+  .trophy {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .checkbox {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 4px;
+
+    @media print {
+      top: 0px;
+    }
+  }
 
   &:first-child {
     margin-top: 0;
@@ -220,15 +240,10 @@ section:not(.summary) {
   &:last-child {
     margin-bottom: 0;
   }
+}
 
-  &:before {
-    content: '';
-    height: 1.5em;
-    width: 1.5em;
-    background-size: cover;
-    flex-shrink: 0;
-    margin-right: 0.4em;
-  }
+.education li {
+  align-items: flex-start;
 }
 
 .bottom .recognition li:before {
@@ -239,10 +254,14 @@ section:not(.summary) {
   background-image: url(img/check.svg);
 }
 
+.school-name {
+  font-size: 1.25em;
+}
+
 .nu-seal-wrapper {
-  text-align: center;
+  text-align: left;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 10px;
   padding-bottom: 10px;
   border-bottom: 1px dashed #c7c7c7;
@@ -251,5 +270,15 @@ section:not(.summary) {
 .nu-seal {
   width: 3em;
   height: 3em;
-  margin-right: 13px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.recognition { 
+  display: flex;
+  flex-direction: column;
+
+  li {
+    display: flex;
+  }
 }
