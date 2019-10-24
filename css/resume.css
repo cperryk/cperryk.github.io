@@ -139,6 +139,12 @@ h1 .secondary .word {
 .summary {
   margin-bottom: 1.8em;
   font-size: 1.2em;
+  margin-top: 5px;
+}
+@media print {
+  .summary {
+    margin-top: 0;
+  }
 }
 
 .top {
