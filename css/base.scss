@@ -75,3 +75,20 @@ h4 {
 i, em {
   // font-style: normal;
 }
+
+ul {
+  list-style: none;
+  padding: 0 0 0 8px;
+  margin:0;
+}
+
+.experience {
+  li {
+    position: relative;
+  }
+  li::before {
+    content: '•';
+    position: absolute;
+    left: -8px;
+  }
+}

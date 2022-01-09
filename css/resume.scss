@@ -67,7 +67,7 @@ h1 {
 }
 
 .summary {
-  margin-bottom: 1.8em;
+  margin-bottom: 1.5em;
   font-size: 1.2em;
   margin-top: 5px;
 
@@ -165,11 +165,6 @@ h1 {
 .time {
   font-size: 9px;
   margin-bottom: 2px;
-}
-
-ul {
-  padding-left: 15px;
-  margin: 0;
 }
 
 .job {
@@ -301,4 +296,21 @@ section:not(.summary) {
   li {
     display: flex;
   }
+}
+
+.experience {
+  ul {
+    list-style: none;
+    padding: 0 0 0 8px;
+    margin:0;
+  }
+  
+  li {
+    position: relative;
+  }
+  li::before {
+    content: '•';
+    position: absolute;
+    left: -8px;
+  }  
 }
