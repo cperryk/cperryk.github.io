@@ -238,13 +238,13 @@ section:not(.summary) {
   }
   
   .checkbox {
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
     position: relative;
     top: 4px;
 
     @media print {
-      top: 0px;
+      top: 2px;
     }
   }
 

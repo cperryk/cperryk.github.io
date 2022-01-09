@@ -314,15 +314,15 @@ section:not(.summary) {
 }
 .education li .checkbox,
 .recognition li .checkbox {
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
   position: relative;
   top: 4px;
 }
 @media print {
   .education li .checkbox,
 .recognition li .checkbox {
-    top: 0px;
+    top: 2px;
   }
 }
 .education li:first-child,
