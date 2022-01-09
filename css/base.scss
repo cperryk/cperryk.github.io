@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
-
-
 a:link,
 a:visited,
 a:hover {
@@ -74,21 +70,4 @@ h4 {
 
 i, em {
   // font-style: normal;
-}
-
-ul {
-  list-style: none;
-  padding: 0 0 0 8px;
-  margin:0;
-}
-
-.experience {
-  li {
-    position: relative;
-  }
-  li::before {
-    content: '•';
-    position: absolute;
-    left: -8px;
-  }
 }
