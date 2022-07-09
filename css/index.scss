@@ -4,7 +4,7 @@ $gutter: 35px;
 $mobile-breakpoint: 700px;
 
 .summary {
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
   font-size: 1em;
 
   p {
@@ -94,7 +94,8 @@ h1 {
   vertical-align: middle;
 }
 
-.recent-work {
+.horizontal-section {
+
   margin: $gutter 0;
 
   @media print {
@@ -103,16 +104,17 @@ h1 {
 }
 
 .clips {
-  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
   justify-content: space-between;
 }
+
 .clip {
   width: 100%;
   flex-shrink: 0;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 
   @media screen and (min-width: $mobile-breakpoint) {
     width: 30%;
