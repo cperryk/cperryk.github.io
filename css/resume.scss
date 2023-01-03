@@ -315,3 +315,15 @@ section:not(.summary) {
     left: -8px;
   }  
 }
+
+.contact-me {
+  @media print {
+      display: none;
+  }
+}
+.email-link {
+  display: none;
+  @media print {
+    display: initial;
+  }
+}

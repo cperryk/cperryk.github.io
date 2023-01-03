@@ -388,4 +388,19 @@ section:not(.summary) {
   left: -8px;
 }
 
+@media print {
+  .contact-me {
+    display: none;
+  }
+}
+
+.email-link {
+  display: none;
+}
+@media print {
+  .email-link {
+    display: initial;
+  }
+}
+
 /*# sourceMappingURL=resume.css.map */
