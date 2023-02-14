@@ -1,12 +1,12 @@
 a:link,
 a:visited,
 a:hover {
-  color: #2065d6;
+  color: rgb(32, 101, 214);
   text-decoration: none;
 }
 
 a:hover {
-  color: #5b99ff;
+  color: rgb(91, 153, 255);
 }
 a:hover h1,
 a:hover h2,
@@ -229,10 +229,8 @@ ul {
 }
 
 .cols {
-  -webkit-columns: 100px 3;
-  /* Chrome, Safari, Opera */
-  -moz-columns: 100px 3;
-  /* Firefox */
+  -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+  -moz-columns: 100px 3; /* Firefox */
   columns: 100px 3;
 }
 
