@@ -2,12 +2,12 @@
 a:link,
 a:visited,
 a:hover {
-  color: #2065d6;
+  color: rgb(32, 101, 214);
   text-decoration: none;
 }
 
 a:hover {
-  color: #5b99ff;
+  color: rgb(91, 153, 255);
 }
 a:hover h1,
 a:hover h2,
@@ -244,10 +244,8 @@ h1 .secondary .word {
 }
 
 .cols {
-  -webkit-columns: 100px 3;
-  /* Chrome, Safari, Opera */
-  -moz-columns: 100px 3;
-  /* Firefox */
+  -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+  -moz-columns: 100px 3; /* Firefox */
   columns: 100px 3;
 }
 
@@ -321,7 +319,7 @@ section:not(.summary) {
 }
 @media print {
   .education li .checkbox,
-.recognition li .checkbox {
+  .recognition li .checkbox {
     top: 2px;
   }
 }
@@ -354,9 +352,6 @@ section:not(.summary) {
   text-align: left;
   display: flex;
   align-items: flex-start;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px dashed #c7c7c7;
 }
 
 .nu-seal {
