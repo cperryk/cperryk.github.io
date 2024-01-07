@@ -5,11 +5,15 @@ a:hover {
   color: rgb(32, 101, 214);
   text-decoration: none;
 }
+a:link h1,
+a:visited h1,
+a:hover h1 {
+  color: black;
+}
 
 a:hover {
   color: rgb(91, 153, 255);
 }
-a:hover h1,
 a:hover h2,
 a:hover h3,
 a:hover h4,

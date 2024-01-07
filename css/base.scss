@@ -3,11 +3,14 @@ a:visited,
 a:hover {
   color: rgb(32, 101, 214);
   text-decoration: none;
+
+  h1 {
+    color:black;
+  }
 }
 
 a:hover {
   color: rgb(91, 153, 255);
-  h1,
   h2,
   h3,
   h4,
@@ -16,6 +19,7 @@ a:hover {
     text-decoration: underline;
   }
 }
+
 
 body {
   max-width: 900px;
