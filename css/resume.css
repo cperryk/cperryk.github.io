@@ -341,4 +341,14 @@ h1 .secondary .word {
   }
 }
 
+@page {
+  size: auto;
+  margin: 0mm;
+}
+@media print {
+  body {
+    padding: 0.5in;
+  }
+}
+
 /*# sourceMappingURL=resume.css.map */

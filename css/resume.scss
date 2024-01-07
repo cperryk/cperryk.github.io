@@ -265,3 +265,13 @@ h1 {
     display: none;
   }
 }
+
+// START: Remove the page title and date from the header of the printed version
+@page { size: auto;  margin: 0mm; }
+
+body {
+  @media print {
+    padding: .5in; 
+  }
+}
+// END
