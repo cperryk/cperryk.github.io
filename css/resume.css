@@ -47,17 +47,23 @@ h2 {
   color: #d62020;
   text-transform: uppercase;
   font-size: 1.3em;
-  height: 1.3em;
   font-weight: 500;
   letter-spacing: 3.5px;
-  border-bottom: 1px solid #c7c7c7;
-  margin: 0 0 20px 0;
+  line-height: 1em;
+  margin: 1em 0 0.5em 0;
+}
+h2::before {
+  border-bottom: 1px solid #b0b0b0;
+  position: relative;
+  top: calc(0.5em + 0.5px);
+  content: "";
+  width: 100%;
+  display: block;
 }
 h2 span {
   background-color: white;
   position: relative;
-  top: 0.5em;
-  padding-right: 5px;
+  padding: 0 2px 0 0;
 }
 
 h3 {
@@ -209,8 +215,23 @@ h1 .secondary .word {
   margin-bottom: 1em;
 }
 
-.col-3 {
-  columns: 3;
+.col-flex-layout {
+  display: flex;
+}
+@media print {
+  .col-flex-layout {
+    display: block;
+    columns: 3;
+    column-gap: 1em;
+  }
+}
+.col-flex-layout > div:first-child {
+  margin: 0 35px 0 0;
+}
+@media print {
+  .col-flex-layout > div:first-child {
+    margin: 0;
+  }
 }
 
 .skills {
@@ -219,18 +240,6 @@ h1 .secondary .word {
   padding: 0;
   list-style: none;
   columns: 3;
-}
-
-.layout-col-group {
-  display: flex;
-}
-
-.layout-column {
-  margin-right: 20px;
-}
-
-.layout-column:last-child {
-  margin-right: 0;
 }
 
 .recognition {
@@ -311,6 +320,18 @@ h1 .secondary .word {
 @media print {
   .email-link {
     display: initial;
+  }
+}
+
+@media print {
+  .screen-only {
+    display: none;
+  }
+}
+
+@media screen {
+  .mobile-only {
+    display: none;
   }
 }
 

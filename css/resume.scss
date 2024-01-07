@@ -135,8 +135,23 @@ h1 {
   margin-bottom: 1em;
 }
 
-.col-3 {
-  columns:3;
+.col-flex-layout {
+  display: flex;
+
+  @media print {
+    display: block;
+    columns:3;
+    column-gap: 1em;
+  }
+
+  & > div:first-child {
+    margin:0 35px 0 0;
+
+    @media print {
+      margin: 0;
+    }
+  }
+
 
 }
 
@@ -148,17 +163,6 @@ h1 {
   columns: 3;
 }
 
-
-.layout-col-group {
-  display: flex;
-}
-
-.layout-column {
-  margin-right: 20px
-}
-.layout-column:last-child {
-  margin-right:0;
-}
 
 .recognition { 
   display: flex;
@@ -243,5 +247,16 @@ h1 {
   display: none;
   @media print {
     display: initial;
+  }
+}
+
+.screen-only {
+  @media print {
+    display: none;
+  }
+}
+.mobile-only {
+  @media screen {
+    display: none;
   }
 }
