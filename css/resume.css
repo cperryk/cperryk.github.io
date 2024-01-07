@@ -219,8 +219,10 @@ h1 .secondary .word {
   margin-bottom: 1em;
 }
 
-.col-flex-layout {
-  display: flex;
+@media screen and (min-width: 1000px) {
+  .col-flex-layout {
+    display: flex;
+  }
 }
 @media print {
   .col-flex-layout {

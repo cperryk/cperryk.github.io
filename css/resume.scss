@@ -136,7 +136,10 @@ h1 {
 }
 
 .col-flex-layout {
-  display: flex;
+
+  @media screen and (min-width: $mobile-breakpoint) {
+    display: flex;
+  }
 
   @media print {
     display: block;
@@ -151,6 +154,8 @@ h1 {
       margin: 0;
     }
   }
+
+  
 
 
 }
