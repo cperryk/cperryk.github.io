@@ -336,7 +336,7 @@ h1 .secondary .word {
 }
 
 @media screen {
-  .mobile-only {
+  .print-only {
     display: none;
   }
 }
