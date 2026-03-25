@@ -312,10 +312,8 @@ h1 .secondary .word {
 .job li {
   position: relative;
 }
-.job li::before {
-  content: "•";
-  position: absolute;
-  left: -8px;
+.job li::marker {
+  content: "• ";
 }
 
 @media print {
